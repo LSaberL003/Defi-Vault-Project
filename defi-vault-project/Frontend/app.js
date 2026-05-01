@@ -1,5 +1,5 @@
-const MYTOKEN_ADDRESS = "PASTE_YOUR_MYTOKEN_ADDRESS_HERE";
-const VAULT_ADDRESS = "PASTE_YOUR_VAULT_ADDRESS_HERE";
+const MYTOKEN_ADDRESS = "0xaCd434aAf24Db0eE01e43a502628a27C56B8ad47";
+const VAULT_ADDRESS = "0x70fd920f32629e58879CF66dAc0D6d3346334Cb3";
 
 const tokenAbi = [
   "function balanceOf(address account) view returns (uint256)",
