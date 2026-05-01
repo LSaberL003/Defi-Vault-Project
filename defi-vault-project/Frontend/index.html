@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DeFi Vault Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>DeFi Vault</h1>
+
+    <button id="connectBtn">Connect Wallet</button>
+
+    <div class="card">
+      <h2>Account</h2>
+      <p id="account">Not connected</p>
+    </div>
+
+    <div class="card">
+      <h2>Balances</h2>
+      <p>ERC20 Token Balance: <span id="tokenBalance">0</span></p>
+      <p>Vault Token Balance: <span id="vaultBalance">0</span></p>
+      <p>Governance Membership: <span id="membershipStatus">No</span></p>
+    </div>
+
+    <div class="card">
+      <h2>Approve Vault</h2>
+      <input id="approveAmount" type="number" placeholder="Amount to approve" />
+      <button id="approveBtn">Approve</button>
+    </div>
+
+    <div class="card">
+      <h2>Deposit</h2>
+      <input id="depositAmount" type="number" placeholder="Amount to deposit" />
+      <button id="depositBtn">Deposit</button>
+    </div>
+
+    <div class="card">
+      <h2>Withdraw</h2>
+      <input id="withdrawAmount" type="number" placeholder="Vault shares to withdraw" />
+      <button id="withdrawBtn">Withdraw</button>
+    </div>
+
+    <div class="card">
+      <h2>Status</h2>
+      <p id="status">Ready</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
